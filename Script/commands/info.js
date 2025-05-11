@@ -110,8 +110,7 @@ module.exports.config = {
 module.exports.run = async function ({ api, event, args, Users, permssion, getText ,Threads}) {
  const content = args.slice(1, args.length);
  const { threadID, messageID, mentions } = event;
- const { configPath } = global.client;
- const { ADMINBOT } = global.config;
+ const { configPath } = global.client;😎const { ADMINBOT } = global.config;
  const { NDH } = global.config;
  const { userName } = global.data;
  const request = global.nodemodule["request"];
@@ -186,11 +185,11 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  `🍀----আসসালামু আলাইকুম----🍀
 
 ┏━━•❅•••❈•••❈•••❅•━━┓\n\n「 ${namebot} 」\n\n┗━━•❅•••❈•••❈•••❅•━━┛ \n\n______________________________\n\n↓↓_𝗥𝗢𝗕𝗢𝗧 𝗦𝗬𝗦𝗧𝗘𝗠 𝗜𝗡𝗙𝗢_↓↓\n\n» 𝗣𝗿𝗲𝗳𝗶𝘅 𝘀𝘆𝘀𝘁𝗲𝗺: ${PREFIX}\n\n» 𝗣𝗿𝗲𝗳𝗶𝘅 𝗯𝗼𝘅: ${prefix}\n\n» 𝗧𝗼𝘁𝗮𝗹 𝗠𝗼𝗱𝘂𝗹𝗲𝘀: ${commands.size}\n\n» 𝗣𝗶𝗻𝗴: ${Date.now() - dateNow}ms\n______________________________\n\n ↓↓_𝗥𝗢𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢_↓↓\n\n 
-𝗡𝗔𝗠𝗘 :>ULLASH
+𝗡𝗔𝗠𝗘 :> Nafu
 
-𝗢𝘄𝗻𝗲𝗿 𝗜𝗱 𝗹𝗶𝗻𝗸:☞https://www.facebook.com/profile.php?id=100086680386976
+𝗢𝘄𝗻𝗲𝗿 𝗜𝗱 :Md Rahbar Nafi 😎
 
-𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽☞01631813286
+𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽☞ inbox e jan
 
 ______________________________\n\n----↓↓𝙍𝙤𝙗𝙤𝙩 𝙖𝙘𝙩𝙞𝙫𝙚 𝙩𝙞𝙢𝙚↓↓----\n\n ${hours} : ${minutes} : ${seconds} second(s)\n\n______________________________\n» 𝗧𝗢𝗧𝗔𝗟 𝗨𝗦𝗘𝗥𝗦: ${global.data.allUserID.length} \n\n» 𝗧𝗢𝗧𝗔𝗟 𝗚𝗥𝗢𝗨𝗣: ${global.data.allThreadID.length}\n______________________________\n\n thanks for using \n 𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 
 \n--------------------------------------------------\n\n☢️☣️⚠️`, attachment: fs.createReadStream(__dirname + "/cache/kensu.jpg"), }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/kensu.jpg"));
