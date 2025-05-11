@@ -91,11 +91,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("সরি বস মাফ করে দেন আর এমন ভুল হবে না🥺🙏", threadID);
    };
 
-   if ((event.body.toLowerCase() == "@Sinthiya Jannat") || (event.body.toLowerCase() == "@Farhana Ontora ")) {
+   if ((event.body.toLowerCase() == "@Sinthiya Jannat") || (event.body.toLowerCase() == "@Sinthiya Jannat")) {
      return api.sendMessage("খবরদার কেউ এই আইড়ি মেনশন দিবানা এটা আমার বস Nafi এর বউ এর আইড়ি😠🥰⛏️", threadID);
    };
 
-  if ((event.body.toLowerCase() == "Sinthiya") || (event.body.toLowerCase() == "arohi")) {
+  if ((event.body.toLowerCase() == "Sinthiya") || (event.body.toLowerCase() == "sinthiya")) {
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস Nafi এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
   
