@@ -159,7 +159,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️চিন্তা করো কেন আমি তো আছি🫶/nতোমাকে রাইতে ভালোবাসবো", threadID);
    };
 
-   if ((event.body.toLowerCase() == "gf") || (event.body.toLowerCase() == "bf","bou","Bou","Bow")) {
+   if ((event.body.toLowerCase() == "gf") || (event.body.toLowerCase() == "bf")) {
      return api.sendMessage("খালি কি তোরাই পেম করবি আমাকেও একটা গফ দে<🥺", threadID);
    };
    
@@ -180,7 +180,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "i love you") || (event.body.toLowerCase() == "Love you") || (event.body.toLowerCase() == "I Love You") || (event.body.toLowerCase() == "ভালোবাসি") || (event.body.toLowerCase() == "i love you")) {
-     return api.sendMessage("সব মুতার জায়গায় গুঁতা দেওয়ার ধান্দা 😪🥱", threadID);
+     return api.sendMessage("সব মুতার জায়গায় *** দেওয়ার ধান্দা 😪🥱", threadID);
    };
 
      if ((event.body.toLowerCase() == "by") || (event.body.toLowerCase() == "Bye") || (event.body.toLowerCase() == "jaiga") || (event.body.toLowerCase() == "বাই") || (event.body.toLowerCase() == "pore kotha hbe") || (event.body.toLowerCase() == "যাই গা")) {
