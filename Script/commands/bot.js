@@ -192,13 +192,17 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
      if ((event.body.toLowerCase() == "Ki obostha") || (event.body.toLowerCase() == "Ki khobor") ||(event.body.toLowerCase() == "...") || (event.body.toLowerCase() == "...")) {
-     return api.sendMessage("alhamdulilla 😊🥰 , tomar ki khobor bolo .", threadID);
+     return api.sendMessage("alhamdulilla 😊🥰 , tomar ki khobor bolo ", threadID);
    };
   
    if ((event.body.toLowerCase() == "tumi ki amake bhalobaso") || (event.body.toLowerCase() == "tmi ki amake vlo basho")) {
      return api.sendMessage("হুম ঝাং আমি তোমাকে রাইতে ভলোপাসি <🥵", threadID);
    };
 
+     if ((event.body.toLowerCase() == "Ki koro") || (event.body.toLowerCase() == "ki koren") ||(event.body.toLowerCase() == "ki koren sobai") || (event.body.toLowerCase() == "ki koro sobai")) {
+     return api.sendMessage("eito tomader shate golpo kori", threadID);
+   };
+  
    if ((event.body.toLowerCase() == "Ami nafi") || (event.body.toLowerCase() == "kire")) {
      return api.sendMessage("হ্যা বস কেমন আছেন..?☺️", threadID);
    };
