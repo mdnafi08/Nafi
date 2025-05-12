@@ -191,6 +191,10 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("না ঝাং 🥹 তুমি রান্না করে রাখো আমি এসে খাবো <😘", threadID);
    };
 
+     if ((event.body.toLowerCase() == "Ki obostha") || (event.body.toLowerCase() == "Ki khobor") ||(event.body.toLowerCase() == "...") || (event.body.toLowerCase() == "...")) {
+     return api.sendMessage("alhamdulilla 😊🥰 , tomar ki khobor bolo .", threadID);
+   };
+  
    if ((event.body.toLowerCase() == "tumi ki amake bhalobaso") || (event.body.toLowerCase() == "tmi ki amake vlo basho")) {
      return api.sendMessage("হুম ঝাং আমি তোমাকে রাইতে ভলোপাসি <🥵", threadID);
    };
