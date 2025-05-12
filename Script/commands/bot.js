@@ -206,6 +206,10 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      if ((event.body.toLowerCase() == "valo aso?") || (event.body.toLowerCase() == "valo aso ") ||(event.body.toLowerCase() == "kmn aso") || (event.body.toLowerCase() == "kemon aso")) {
      return api.sendMessage("alhamdulilla valo asi", threadID);
    };
+
+     if ((event.body.toLowerCase() == "Aha") || (event.body.toLowerCase() == "aha")) {
+     return api.sendMessage("aha aha aha 😌", threadID);
+   };
   
    if ((event.body.toLowerCase() == "Ami nafi") || (event.body.toLowerCase() == "kire")) {
      return api.sendMessage("হ্যা বস কেমন আছেন..?☺️", threadID);
