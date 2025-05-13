@@ -203,11 +203,12 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   if ((event.body.toLowerCase() == "Ahare") || (event.body.toLowerCase() == "ahare")) {
      return api.sendMessage("Kosto paina suna🥺😂 ", threadID);
    };
-  ! video baby jaan     return api.sendMessage("alhamdulilla valo asi", threadID);
-   };
 
      if ((event.body.toLowerCase() == "Aha") || (event.body.toLowerCase() == "aha")) {
      return api.sendMessage("aha aha aha 😌", threadID);
+   };
+     if ((event.body.toLowerCase() == "Ki") || (event.body.toLowerCase() == "ki")) {
+     return api.sendMessage(" tor matha 😎", threadID);
    };
 
      if ((event.body.toLowerCase() == "opp") || (event.body.toLowerCase() == "Opp")) {
