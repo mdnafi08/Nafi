@@ -57,9 +57,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
   if ((event.body.toLowerCase() == "Nafi") || (event.body.toLowerCase() == "nafi") || (event.body.toLowerCase() == "@Ullash ッ") || (event.body.toLowerCase() == "উল্লাস")) {
-     return api.sendMessage("উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",threadID);
-
-       
+     return api.sendMessage("উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",threadID);  
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "ceo")) {
@@ -78,7 +76,6 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("If you want to use the AI command, type /ai ", threadID);
    };
 
-  
    if ((event.body.toLowerCase() == "chup") || (event.body.toLowerCase() == "stop") || (event.body.toLowerCase() == "চুপ কর") || (event.body.toLowerCase() == "chup kor")) {
      return api.sendMessage("তুই চুপ চুপ কর পাগল ছাগল", threadID);
    };
@@ -206,15 +203,17 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   if ((event.body.toLowerCase() == "Ahare") || (event.body.toLowerCase() == "ahare")) {
      return api.sendMessage("Kosto paina suna🥺😂 ", threadID);
    };
-  
-     if ((event.body.toLowerCase() == "valo aso?") || (event.body.toLowerCase() == "valo aso ") ||(event.body.toLowerCase() == "kmn aso") || (event.body.toLowerCase() == "kemon aso")) {
-     return api.sendMessage("alhamdulilla valo asi", threadID);
+  ! video baby jaan     return api.sendMessage("alhamdulilla valo asi", threadID);
    };
 
      if ((event.body.toLowerCase() == "Aha") || (event.body.toLowerCase() == "aha")) {
      return api.sendMessage("aha aha aha 😌", threadID);
    };
-  
+
+     if ((event.body.toLowerCase() == "opp") || (event.body.toLowerCase() == "Opp")) {
+     return api.sendMessage("Bal Kosse", threadID);
+   };
+
    if ((event.body.toLowerCase() == "Ami nafi") || (event.body.toLowerCase() == "kire")) {
      return api.sendMessage("হ্যা বস কেমন আছেন..?☺️", threadID);
    };
