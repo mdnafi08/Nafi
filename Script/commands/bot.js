@@ -143,7 +143,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    if ((event.body.toLowerCase() == "cudi") || (event.body.toLowerCase() == "Bc")) {
      return api.sendMessage("️এত চোদা চুদি করস কেনো দেখা যাবে বাসর-রাতে-তুই-কতো পারিস..!🥱🌝🌚⛏️🌶️ ", threadID);
    };
-
+  
+   if ((event.body.toLowerCase() == "Oi") || (event.body.toLowerCase() == "Oii") || (event.body.toLowerCase() == "oii") || (event.body.toLowerCase() == "oiii")) {
+     return api.sendMessage("️oi oi koros kn ki hoise bol 😑", threadID);
+   };
+  
    if ((event.body.toLowerCase() == "😅") || (event.body.toLowerCase() == "😅😅")) {
      return api.sendMessage("️কি গো কলিজা তোমার কি মন খারাপ🥺", threadID);
    };
